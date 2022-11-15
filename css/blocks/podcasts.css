@@ -1,0 +1,33 @@
+.podcasts {
+  background-color: var(--color-gray-light);
+}
+
+.podcasts__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.podcasts__title {
+  margin-bottom: 30px;
+}
+
+.podcasts__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.podcasts__link {
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .podcasts__title {
+    margin-bottom: 20px;
+  }
+
+  .podcasts__list {
+    margin-bottom: 30px;
+  }
+}
