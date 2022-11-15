@@ -4,3 +4,21 @@
   margin: 0 auto;
   padding: 0 45px;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .container {
+    padding: 0 114px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 32px;
+  }
+}
