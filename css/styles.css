@@ -1,0 +1,148 @@
+@import '../fonts/muller/muller.css';
+@import '../css/root.css';
+@import '../css/blocks/container.css';
+/* @import '../css/link.css';
+@import '../css/mobile-menu.css';
+@import '../css/signin-button.css';
+@import '../css/search.css';
+@import '../css/on-air.css';
+@import '../css/promo.css'; */
+/* 
+.header {
+  overflow-x: hidden;
+}
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 80px;
+}
+
+.header__top {
+  padding: 20px 0;
+}
+
+.header__bottom {
+  display: flex;
+  min-height: 60px;
+  border: 1px solid var(--color-gray-light);
+}
+
+.menu-toggle {
+  display: none;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.site-nav {
+  flex-grow: 1;
+}
+
+.site-menu {
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.additional-menu {
+  column-gap: 52px;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.site-actions {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.podcast {
+  background-color: var(--color-gray-light);
+}
+
+.section {
+  padding: 94px 0;
+  color: var(--color-black);
+}
+
+.section--theme-dark {
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+.section__content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.section__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.badge {
+  width: 46px;
+  height: 100%;
+  background-color: var(--color-gray-light);
+  background-image: url('../img/badge.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    position: relative;
+    padding-top: 60px;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: var(--color-gray-light);
+  }
+  .header__logo {
+    position: absolute;
+    top: 23px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .site-nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 32px;
+  }
+
+  .header__row {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+
+  .additional-menu {
+    display: none;
+  }
+
+  .signin {
+    position: absolute;
+    top: 23px;
+    right: 32px;
+  }
+} */

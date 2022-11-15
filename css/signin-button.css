@@ -1,0 +1,28 @@
+.signin {
+  padding: 10px 31px;
+  border: 2px solid var(--color-black);
+  border-radius: 40px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color-black);
+  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.signin:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.signin:focus {
+  background-color: var(--color-primary-light);
+  color: var(--color-black);
+  outline: none;
+}
+
+.signin:active {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  color: var(--color-white);
+}
