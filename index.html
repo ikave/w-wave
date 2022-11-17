@@ -9,6 +9,15 @@
     <script defer src="./js/index.js"></script>
   </head>
   <body>
+    <div style="display: none">
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol id="play-filled">
+          <path
+            d="M1.69238 15.7965L11.5716 8.79964C12.1428 8.39982 12.1428 7.60018 11.5716 7.20036L1.69238 0.203465C0.994271 -0.296313 0 0.183473 0 1.00311V14.9969C0 15.8165 0.994271 16.2963 1.69238 15.7965Z"
+          />
+        </symbol>
+      </svg>
+    </div>
     <header class="header">
       header
       <!-- <div class="mobile-menu">
@@ -151,17 +160,42 @@
           <ul class="podcasts__list">
             <li class="podcasts__list-item">
               <article class="podcast">
-                <img
-                  class="podcast__poster"
-                  src="./img/ee7c996a8de3ada51cef2ec23875d8b9.png"
-                  alt=""
-                />
+                <img class="podcast__poster" src="./img/podcast-1.png" alt="" />
                 <div class="podcast__content">
-                  <span class="podcast__date">14 июня</span>
-                  <time class="podcast__time" datetime="">15:43</time>
-                  <h3 class="podcast__title">Европа. XIX век</h3>
-                  <p class="podcast__author">Дмитрий Гутенберг</p>
-                  <button class="podcast__play"></button>
+                  <div>
+                    <span class="podcast__date">14 июня</span>
+                    <time class="podcast__time" datetime="">15:43</time>
+                    <h3 class="podcast__title">Европа. XIX век</h3>
+                    <p class="podcast__author">Дмитрий Гутенберг</p>
+                  </div>
+                  <button class="podcast__play">
+                    <svg fill="currentColor" width="12" height="16" viewBox="0 0 12 16">
+                      <use xlink:href="#play-filled"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="podcast__meta podcast-meta">
+                  <span class="podcast-meta__item podcast-meta__item--played">207</span>
+                  <span class="podcast-meta__item podcast-meta__item--liked">34</span>
+                  <span class="podcast-meta__item podcast-meta__item--shared">18</span>
+                </div>
+              </article>
+            </li>
+            <li class="podcasts__list-item">
+              <article class="podcast">
+                <img class="podcast__poster" src="./img/podcast-2.png" alt="" />
+                <div class="podcast__content">
+                  <div>
+                    <span class="podcast__date">11 июня</span>
+                    <time class="podcast__time" datetime="">5:32</time>
+                    <h3 class="podcast__title">О музыке</h3>
+                    <p class="podcast__author">Дмитрий Гутенберг</p>
+                  </div>
+                  <button class="podcast__play">
+                    <svg fill="currentColor" width="12" height="16" viewBox="0 0 12 16">
+                      <use xlink:href="#play-filled"></use>
+                    </svg>
+                  </button>
                 </div>
                 <div class="podcast__meta podcast-meta">
                   <span class="podcast-meta__item podcast-meta__item--played">258</span>
@@ -170,12 +204,144 @@
                 </div>
               </article>
             </li>
-            <li class="podcasts__list-item">wa</li>
-            <li class="podcasts__list-item">wa</li>
-            <li class="podcasts__list-item">wa</li>
-            <li class="podcasts__list-item">wa</li>
-            <li class="podcasts__list-item">wa</li>
-            <li class="podcasts__list-item">wa</li>
+            <li class="podcasts__list-item">
+              <article class="podcast">
+                <img class="podcast__poster" src="./img/podcast-3.png" alt="" />
+                <div class="podcast__content">
+                  <div>
+                    <span class="podcast__date">14 июня</span>
+                    <time class="podcast__time" datetime="">15:43</time>
+                    <h3 class="podcast__title">Европа. XIX век</h3>
+                    <p class="podcast__author">Дмитрий Гутенберг</p>
+                  </div>
+                  <button class="podcast__play">
+                    <svg fill="currentColor" width="12" height="16" viewBox="0 0 12 16">
+                      <use xlink:href="#play-filled"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="podcast__meta podcast-meta">
+                  <span class="podcast-meta__item podcast-meta__item--played">258</span>
+                  <span class="podcast-meta__item podcast-meta__item--liked">104</span>
+                  <span class="podcast-meta__item podcast-meta__item--shared">68</span>
+                </div>
+              </article>
+            </li>
+            <li class="podcasts__list-item">
+              <article class="podcast">
+                <img class="podcast__poster" src="./img/podcast-4.png" alt="" />
+                <div class="podcast__content">
+                  <div>
+                    <span class="podcast__date">14 июня</span>
+                    <time class="podcast__time" datetime="">15:43</time>
+                    <h3 class="podcast__title">Европа. XIX век</h3>
+                    <p class="podcast__author">Дмитрий Гутенберг</p>
+                  </div>
+                  <button class="podcast__play">
+                    <svg fill="currentColor" width="12" height="16" viewBox="0 0 12 16">
+                      <use xlink:href="#play-filled"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="podcast__meta podcast-meta">
+                  <span class="podcast-meta__item podcast-meta__item--played">258</span>
+                  <span class="podcast-meta__item podcast-meta__item--liked">104</span>
+                  <span class="podcast-meta__item podcast-meta__item--shared">68</span>
+                </div>
+              </article>
+            </li>
+            <li class="podcasts__list-item">
+              <article class="podcast">
+                <img class="podcast__poster" src="./img/podcast-5.png" alt="" />
+                <div class="podcast__content">
+                  <div>
+                    <span class="podcast__date">14 июня</span>
+                    <time class="podcast__time" datetime="">15:43</time>
+                    <h3 class="podcast__title">Европа. XIX век</h3>
+                    <p class="podcast__author">Дмитрий Гутенберг</p>
+                  </div>
+                  <button class="podcast__play">
+                    <svg fill="currentColor" width="12" height="16" viewBox="0 0 12 16">
+                      <use xlink:href="#play-filled"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="podcast__meta podcast-meta">
+                  <span class="podcast-meta__item podcast-meta__item--played">258</span>
+                  <span class="podcast-meta__item podcast-meta__item--liked">104</span>
+                  <span class="podcast-meta__item podcast-meta__item--shared">68</span>
+                </div>
+              </article>
+            </li>
+            <li class="podcasts__list-item">
+              <article class="podcast">
+                <img class="podcast__poster" src="./img/podcast-6.png" alt="" />
+                <div class="podcast__content">
+                  <div>
+                    <span class="podcast__date">14 июня</span>
+                    <time class="podcast__time" datetime="">15:43</time>
+                    <h3 class="podcast__title">Европа. XIX век</h3>
+                    <p class="podcast__author">Дмитрий Гутенберг</p>
+                  </div>
+                  <button class="podcast__play">
+                    <svg fill="currentColor" width="12" height="16" viewBox="0 0 12 16">
+                      <use xlink:href="#play-filled"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="podcast__meta podcast-meta">
+                  <span class="podcast-meta__item podcast-meta__item--played">258</span>
+                  <span class="podcast-meta__item podcast-meta__item--liked">104</span>
+                  <span class="podcast-meta__item podcast-meta__item--shared">68</span>
+                </div>
+              </article>
+            </li>
+            <li class="podcasts__list-item">
+              <article class="podcast">
+                <img class="podcast__poster" src="./img/podcast-7.png" alt="" />
+                <div class="podcast__content">
+                  <div>
+                    <span class="podcast__date">14 июня</span>
+                    <time class="podcast__time" datetime="">15:43</time>
+                    <h3 class="podcast__title">Европа. XIX век</h3>
+                    <p class="podcast__author">Дмитрий Гутенберг</p>
+                  </div>
+                  <button class="podcast__play">
+                    <svg fill="currentColor" width="12" height="16" viewBox="0 0 12 16">
+                      <use xlink:href="#play-filled"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="podcast__meta podcast-meta">
+                  <span class="podcast-meta__item podcast-meta__item--played">258</span>
+                  <span class="podcast-meta__item podcast-meta__item--liked">104</span>
+                  <span class="podcast-meta__item podcast-meta__item--shared">68</span>
+                </div>
+              </article>
+            </li>
+            <li class="podcasts__list-item">
+              <article class="podcast">
+                <img class="podcast__poster" src="./img/podcast-8.png" alt="" />
+                <div class="podcast__content">
+                  <div>
+                    <span class="podcast__date">14 июня</span>
+                    <time class="podcast__time" datetime="">15:43</time>
+                    <h3 class="podcast__title">Европа. XIX век</h3>
+                    <p class="podcast__author">Дмитрий Гутенберг</p>
+                  </div>
+                  <button class="podcast__play">
+                    <svg fill="currentColor" width="12" height="16" viewBox="0 0 12 16">
+                      <use xlink:href="#play-filled"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="podcast__meta podcast-meta">
+                  <span class="podcast-meta__item podcast-meta__item--played">258</span>
+                  <span class="podcast-meta__item podcast-meta__item--liked">104</span>
+                  <span class="podcast-meta__item podcast-meta__item--shared">68</span>
+                </div>
+              </article>
+            </li>
           </ul>
           <a class="button button--size-large button--outlined podcasts__link" href="#"
             >Ещё подкасты</a
