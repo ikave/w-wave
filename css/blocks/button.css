@@ -1,0 +1,65 @@
+.button {
+  color: var(--color-black);
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.button--filled {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+}
+
+.button--outlined {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.button--size-large {
+  padding: 23px 52px;
+  font-size: 20px;
+}
+
+.button--size-medium {
+  padding: 10px 18px;
+  font-size: 16px;
+}
+
+.button--filled:hover {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+}
+
+.button--filled:focus {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-dark);
+  outline: none;
+}
+
+.button--filled:active {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+.button--outlined:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.button--outlined:focus {
+  background-color: var(--color-primary-light);
+  color: var(--color-white);
+  outline: none;
+}
+
+.button--outlined:active {
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+  border-color: var(--color-primary-dark);
+}
