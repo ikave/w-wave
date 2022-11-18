@@ -160,7 +160,10 @@
           <ul class="podcasts__list">
             <li class="podcasts__list-item">
               <article class="podcast">
-                <img class="podcast__poster" src="./img/podcast-1.png" alt="" />
+                <picture class="podcast__poster">
+                  <source srcset="./img/podcast-1-2.jpg" media="(max-width: 767px)" />
+                  <img class="podcast__poster" src="./img/podcast-1-1.png" alt="" />
+                </picture>
                 <div class="podcast__content">
                   <div>
                     <span class="podcast__date">14 июня</span>
@@ -353,8 +356,20 @@
         <div class="container broadcasts__content">
           <div class="broadcasts__column">
             <h2 class="section-title broadcasts__title">Передачи</h2>
-            <div class="broadcasts__author">select</div>
-            <div class="broadcasts__archive-top">archive</div>
+            <div class="broadcasts__author">
+              <span class="broadcasts__author-heading">Автор:</span>
+              <select name="" id="">
+                <option value="">Дмитрий Гутенберг</option>
+              </select>
+            </div>
+            <div class="broadcasts__archive-top archive">
+              <a href="#" class="button button--size-medium button--outlined archive__link"
+                >Архив</a
+              >
+              <p class="archive__description">
+                В архив попадают все передачи, которые вы пропустили! Enjoy:)
+              </p>
+            </div>
           </div>
           <div class="broadcasts__column">
             <ul class="broadcasts__list">
