@@ -26,6 +26,10 @@
   gap: 30px;
 }
 
+.broadcasts__list-item {
+  display: flex;
+}
+
 .broadcasts__author {
   margin-bottom: 227px;
 }
