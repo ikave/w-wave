@@ -1,0 +1,28 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  column-gap: 21px;
+}
+
+.contacts__item {
+  display: flex;
+}
+
+.contacts__link {
+  display: flex;
+  color: var(--color-text-gray);
+  transition: color 0.2s ease;
+}
+
+.contacts__link:hover {
+  color: var(--color-primary);
+}
+
+.contacts__link:focus {
+  color: var(--color-primary-light);
+  outline: none;
+}
+
+.contacts__link:active {
+  color: var(--color-primary-dark);
+}
