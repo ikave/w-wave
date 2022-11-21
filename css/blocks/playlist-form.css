@@ -1,6 +1,3 @@
-.playlist-form {
-}
-
 .playlist-form__fieldset {
   margin: 0;
   padding: 0;
@@ -32,7 +29,7 @@
 
 @media (max-width: 767px) {
   .playlist-form__fields {
-    max-width: calc(100vw - 32px);
+    width: calc(100vw - 32px);
     overflow-x: scroll;
     flex-direction: row;
     flex-wrap: nowrap;
