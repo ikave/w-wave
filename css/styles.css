@@ -16,6 +16,12 @@
 @import '../css/blocks/guests.css';
 @import '../css/blocks/guest.css';
 @import '../css/blocks/accordion.css';
+@import '../css/blocks/playlists.css';
+@import '../css/blocks/playlist.css';
+@import '../css/blocks/playlist-form.css';
+@import '../css/blocks/playlist-card.css';
+@import '../css/blocks/ganre-field.css';
+@import '../css/blocks/disclaimer.css';
 
 /* @import '../css/link.css';
 @import '../css/mobile-menu.css';

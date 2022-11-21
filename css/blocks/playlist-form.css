@@ -1,0 +1,43 @@
+.playlist-form {
+}
+
+.playlist-form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.playlist-form__fields {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.playlist-form__legend {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: var(--color-text-gray);
+}
+
+@media (max-width: 1200px) {
+  .playlist-form__fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-height: 168px;
+    column-gap: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .playlist-form__fields {
+    max-width: calc(100vw - 32px);
+    overflow-x: scroll;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-height: none;
+    padding-right: 32px;
+    column-gap: 15px;
+  }
+}

@@ -676,9 +676,244 @@
         </div>
       </section>
 
-      <section class="section playlists">
-        <div class="container">
-          <h2 class="section-title">Плейлисты</h2>
+      <section class="section" style="overflow-x: hidden">
+        <div class="container playlists">
+          <h2 class="section-title playlists__title">Плейлисты</h2>
+          <form class="playlists__form playlist-form">
+            <fieldset class="playlist-form__fieldset">
+              <legend class="playlist-form__legend">Жанр</legend>
+              <ul class="playlist-form__fields">
+                <li class="ganre-field">
+                  <input
+                    class="ganre-field__input"
+                    name="ganre"
+                    type="radio"
+                    id="ganre-postpunk"
+                    value="postpunk"
+                    checked
+                  />
+                  <label class="ganre-field__label" for="ganre-postpunk">Постпанк</label>
+                </li>
+                <li class="ganre-field">
+                  <input
+                    class="ganre-field__input"
+                    name="ganre"
+                    type="radio"
+                    id="ganre-hardcore"
+                    value="hardcore"
+                  />
+                  <label class="ganre-field__label" for="ganre-hardcore">Хардкор</label>
+                </li>
+                <li class="ganre-field">
+                  <input
+                    class="ganre-field__input"
+                    name="ganre"
+                    type="radio"
+                    id="ganre-punkrock"
+                    value="punkrock"
+                  />
+                  <label class="ganre-field__label" for="ganre-punkrock">Панк-рок</label>
+                </li>
+                <li class="ganre-field">
+                  <input
+                    class="ganre-field__input"
+                    name="ganre"
+                    type="radio"
+                    id="ganre-rock"
+                    value="rock"
+                  />
+                  <label class="ganre-field__label" for="ganre-rock">Рок</label>
+                </li>
+                <li class="ganre-field">
+                  <input
+                    class="ganre-field__input"
+                    name="ganre"
+                    type="radio"
+                    id="ganre-progressive"
+                    value="progressive"
+                  />
+                  <label class="ganre-field__label" for="ganre-progressive"
+                    >Прогрессивный рок</label
+                  >
+                </li>
+                <li class="ganre-field">
+                  <input
+                    class="ganre-field__input"
+                    name="ganre"
+                    type="radio"
+                    id="ganre-electronic"
+                    value="electronic"
+                  />
+                  <label class="ganre-field__label" for="ganre-electronic"
+                    >Электронная музыка</label
+                  >
+                </li>
+                <li class="ganre-field">
+                  <input
+                    class="ganre-field__input"
+                    name="ganre"
+                    type="radio"
+                    id="ganre-classic"
+                    value="classic"
+                  />
+                  <label class="ganre-field__label" for="ganre-classic">Классическая музыка</label>
+                </li>
+                <li class="ganre-field">
+                  <input
+                    class="ganre-field__input"
+                    name="ganre"
+                    type="radio"
+                    id="ganre-embience"
+                    value="embience"
+                  />
+                  <label class="ganre-field__label" for="ganre-embience"
+                    >Звуки природы и шум города</label
+                  >
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+          <ul class="playlists__list playlist">
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="ru">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-1.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">Ploho</h3>
+                  <p class="playlist-card__description">3 последних альбома</p>
+                </div>
+              </a>
+            </li>
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="ru">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-2.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">Molchat Doma</h3>
+                  <p class="playlist-card__description">Все песни</p>
+                </div>
+              </a>
+            </li>
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="ru">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-3.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">Motorama</h3>
+                  <p class="playlist-card__description">Все синглы</p>
+                </div>
+              </a>
+            </li>
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="ru">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-4.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">Human Tetris</h3>
+                  <p class="playlist-card__description">3 последних альбома</p>
+                </div>
+              </a>
+            </li>
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="ru">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-5.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">Буерак</h3>
+                  <p class="playlist-card__description">Все EP</p>
+                </div>
+              </a>
+            </li>
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="ru">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-6.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">Июльские Дни</h3>
+                  <p class="playlist-card__description">Альбом «Колокол»</p>
+                </div>
+              </a>
+            </li>
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="gb">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-7.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">Joy Division</h3>
+                  <p class="playlist-card__description">Лучшее за всё время</p>
+                </div>
+              </a>
+            </li>
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="gb">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-8.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">The Cure</h3>
+                  <p class="playlist-card__description">Лучшее за всё время</p>
+                </div>
+              </a>
+            </li>
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="gb">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-9.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">The Smiths</h3>
+                  <p class="playlist-card__description">Период 1984–1988</p>
+                </div>
+              </a>
+            </li>
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="gb">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-10.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">New Order</h3>
+                  <p class="playlist-card__description">Хиты</p>
+                </div>
+              </a>
+            </li>
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="gb">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-11.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">Bauhaus</h3>
+                  <p class="playlist-card__description">Все синглы</p>
+                </div>
+              </a>
+            </li>
+            <li class="playlist__item">
+              <a href="" class="playlist__card playlist-card" data-country="gb">
+                <div class="playlist-card__image-wrapper">
+                  <img class="playlist-card__poster" src="./img/playlist-12.jpg" alt="" />
+                </div>
+                <div class="playlist-card__content">
+                  <h3 class="playlist-card__name">Gang Of Four</h3>
+                  <p class="playlist-card__description">3 последних альбома</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <div class="playlists__disclaimer disclaimer">
+            <p class="disclaimer__about">
+              Раздел «Плейлисты» может содержать информацию, не предназначенную
+              для несовершеннолетних
+            </p>
+            <p class="disclaimer__meta">© 2021 l W-Wave</p>
+          </div>
         </div>
       </section>
 

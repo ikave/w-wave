@@ -1,0 +1,45 @@
+.playlists {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  column-gap: 34px;
+}
+
+.playlists__title {
+  grid-column: 1/2;
+  margin-bottom: 12px;
+}
+
+.playlists__form {
+  grid-column: 1/2;
+  margin-bottom: 22px;
+}
+
+.playlists__disclaimer {
+  grid-column: 1/2;
+}
+
+.playlists__list {
+  grid-column: 2/-1;
+  grid-row: 1/5;
+}
+
+@media (max-width: 1200px) {
+  .playlists {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .playlists__form {
+    margin-bottom: 30px;
+  }
+
+  .playlists__list {
+    margin-bottom: 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  .playlists__list {
+    margin-bottom: 32px;
+  }
+}

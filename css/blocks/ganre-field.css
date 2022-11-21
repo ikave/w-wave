@@ -1,0 +1,64 @@
+.ganre-field {
+  display: inline-flex;
+  align-items: center;
+}
+
+.ganre-field__input {
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  border: 2px solid var(--color-text-gray);
+  transition: border-color 0.2s ease, outline-color 0.2s ease, background-color 0.2s ease;
+}
+
+.ganre-field__input:hover {
+  border-color: var(--color-primary);
+}
+
+.ganre-field__input:focus {
+  border-color: var(--color-primary);
+  background-color: var(--color-gray);
+  outline: none;
+}
+
+.ganre-field__input:checked {
+  outline: 7px solid var(--color-primary);
+  outline-offset: -7px;
+  background-color: transparent;
+}
+
+.ganre-field__label {
+  padding-left: 12px;
+  font-size: 20px;
+  color: var(--color-black);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .ganre-field__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+  }
+
+  .ganre-field__input:checked + .ganre-field__label {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  .ganre-field__label {
+    padding: 8px 18px;
+    border-radius: 35px;
+    border: 2px solid var(--color-primary);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-primary);
+  }
+}
