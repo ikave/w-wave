@@ -2,6 +2,7 @@
 @import '../css/root.css';
 @import '../css/blocks/container.css';
 @import '../css/blocks/button.css';
+@import '../css/blocks/form-field.css';
 @import '../css/blocks/contacts.css';
 @import '../css/blocks/section.css';
 @import '../css/blocks/section-title.css';
@@ -26,6 +27,9 @@
 @import '../css/blocks/review-form.css';
 @import '../css/blocks/footer.css';
 @import '../css/blocks/footer-menu.css';
+@import '../css/blocks/modal.css';
+@import '../css/blocks/modal-login.css';
+@import '../css/blocks/login-form.css';
 
 /* @import '../css/link.css';
 @import '../css/mobile-menu.css';

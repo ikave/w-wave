@@ -6,8 +6,11 @@
   gap: 30px;
 }
 
-.review-form__textaria {
+.review-form__textaria-field {
   grid-column: 1/-1;
+}
+
+.review-form__textaria {
   height: 150px;
   resize: none;
 }
@@ -16,53 +19,6 @@
 .review-form__processing {
   grid-column: 1/2;
   align-self: flex-start;
-}
-
-.review-form__field {
-  position: relative;
-  display: flex;
-}
-
-.review-form__input {
-  width: 100%;
-  padding: 24px 31px;
-  border: 1px solid var(--color-white);
-  border-radius: 40px;
-  font: inherit;
-  font-size: 20px;
-  color: var(--color-white);
-  background-color: transparent;
-}
-
-.review-form__input::placeholder {
-  color: var(--color-text-gray);
-}
-
-.review-form__input:hover {
-  background-color: var(--color-black-light);
-}
-
-.review-form__input:focus {
-  background-color: var(--color-black-light);
-  border-color: var(--color-primary-light);
-  outline: none;
-}
-
-.review-form__input--invalid {
-  border-color: var(--color-red);
-}
-
-.review-form__input-error {
-  position: absolute;
-  top: 9px;
-  left: 32px;
-  display: none;
-  font-size: 12px;
-  color: var(--color-red);
-}
-
-.review-form__input--invalid + .review-form__input-error {
-  display: block;
 }
 
 .review-form__processing {
@@ -95,11 +51,5 @@
 @media (max-width: 1023px) {
   .review-form {
     grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 767px) {
-  .review-form__input {
-    padding: 16px 23px;
   }
 }
