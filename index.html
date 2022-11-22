@@ -951,7 +951,49 @@
             </p>
           </header>
           <div class="about__slider"></div>
-          <div class="about__form"></div>
+          <div class="about__form">
+            <form class="review-form">
+              <textarea
+                class="review-form__input review-form__textaria"
+                name="text"
+                cols="30"
+                rows="10"
+                placeholder="Что скажете?"
+              ></textarea>
+              <label class="review-form__field">
+                <input
+                  class="review-form__input"
+                  type="text"
+                  name="name"
+                  placeholder="Имя"
+                  required
+                />
+                <span class="review-form__input-error">Ошибка</span>
+              </label>
+              <label class="review-form__field">
+                <input
+                  class="review-form__input"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+                <span class="review-form__input-error">Ошибка</span>
+              </label>
+              <div>
+                <button
+                  class="button button--filled button--size-large review-form__submit"
+                  type="submit"
+                >
+                  Отправить
+                </button>
+              </div>
+              <label class="review-form__processing">
+                <input class="review-form__checkbox" type="checkbox" required />
+                Согласен на обработку персональных данных
+              </label>
+            </form>
+          </div>
         </div>
       </section>
     </main>
