@@ -10,6 +10,8 @@
 
 .contacts__link {
   display: flex;
+  width: 24px;
+  height: 24px;
   color: var(--color-text-gray);
   transition: color 0.2s ease;
 }
