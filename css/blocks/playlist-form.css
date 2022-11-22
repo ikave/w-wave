@@ -18,22 +18,21 @@
 
 @media (max-width: 1200px) {
   .playlist-form__fields {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    max-height: 168px;
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: column;
     column-gap: 35px;
   }
 }
 
 @media (max-width: 767px) {
   .playlist-form__fields {
-    width: calc(100vw - 32px);
     overflow-x: scroll;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    max-height: none;
+    width: calc(100vw - 32px);
     padding-right: 32px;
     column-gap: 15px;
   }
