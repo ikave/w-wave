@@ -41,15 +41,22 @@
 }
 
 @media (max-width: 1023px) {
-  .about {
-    background-image: url('../../img/about-bg-768.svg');
-    background-position: top 476px left;
-    background-repeat: no-repeat;
+  .about__header {
+    position: relative;
+    background-image: none;
   }
 
-  .about__header {
-    padding-bottom: 142px;
-    background-image: none;
+  .about__header::after {
+    content: '';
+    position: relative;
+    left: -196px;
+    display: block;
+    width: 100vw;
+    height: 112px;
+    margin-top: 30px;
+    background-image: url('../../img/about-bg-768.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .about__tagline,
@@ -63,8 +70,8 @@
     background-image: none;
   }
 
-  .about__header {
-    padding-bottom: 0;
+  .about__header::after {
+    display: none;
   }
 
   .about__tagline {
