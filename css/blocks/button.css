@@ -1,4 +1,5 @@
 .button {
+  display: inline-block;
   color: var(--color-black);
   font-weight: 500;
   line-height: 1;
@@ -62,4 +63,11 @@
   background-color: var(--color-primary-dark);
   color: var(--color-white);
   border-color: var(--color-primary-dark);
+}
+
+@media (max-width: 767px) {
+  .button--size-large {
+    padding: 15px 43px;
+    font-size: 16px;
+  }
 }
