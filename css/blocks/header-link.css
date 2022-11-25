@@ -1,11 +1,11 @@
-.link {
+.header-link {
   position: relative;
   color: var(--color-black);
   text-decoration: none;
   transition: color 0.2s ease, background-color 0.2s ease;
 }
 
-.link::before {
+.header-link::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -21,20 +21,20 @@
   transition: opacity 0.2s ease;
 }
 
-.link:hover {
+.header-link:hover {
   color: var(--color-primary);
 }
 
-.link:focus {
+.header-link:focus {
   color: var(--color-white);
   outline: none;
 }
 
-.link:focus::before {
+.header-link:focus::before {
   opacity: 1;
 }
 
-.link:active {
+.header-link:active {
   color: var(--color-primary-dark);
   background-color: transparent;
 }

@@ -1,0 +1,8 @@
+.badge {
+  width: 46px;
+  height: 100%;
+  background-color: var(--color-gray-light);
+  background-image: url('../../img/badge.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}

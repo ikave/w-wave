@@ -6,7 +6,7 @@
   width: 100vw;
   height: 100vh;
   background-color: var(--color-gray);
-  background-image: url('../img/mobile-menu-bg.svg');
+  background-image: url('../../img/mobile-menu-bg.svg');
   background-repeat: no-repeat;
   background-position: center right 114px;
   background-size: 255px 500px;
@@ -35,7 +35,7 @@
   padding: 0;
   border: none;
   background-color: transparent;
-  background-image: url('../img/close.svg');
+  background-image: url('../../img/close.svg');
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;

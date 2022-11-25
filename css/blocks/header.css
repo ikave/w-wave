@@ -1,0 +1,31 @@
+.header {
+  overflow-x: hidden;
+}
+
+.header__top {
+  padding: 20px 0;
+}
+
+.header__bottom {
+  display: flex;
+  min-height: 60px;
+  border: 1px solid var(--color-gray-light);
+}
+
+.header__logo {
+  flex-shrink: 0;
+}
+
+.header__top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 80px;
+}
+
+.header__bottom-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+}

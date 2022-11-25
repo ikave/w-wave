@@ -1,0 +1,6 @@
+.additional-menu {
+  display: flex;
+  column-gap: 52px;
+  font-size: 16px;
+  line-height: 1;
+}
