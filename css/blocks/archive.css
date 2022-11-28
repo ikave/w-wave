@@ -9,6 +9,7 @@
 }
 
 .archive__link {
+  --color-primary: var(--color-black);
   display: block;
   justify-content: center;
   width: 160px;
