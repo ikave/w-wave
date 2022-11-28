@@ -26,3 +26,12 @@
   border-color: var(--color-primary-dark);
   color: var(--color-white);
 }
+
+@media (max-width: 767px) {
+  .signin {
+    position: absolute;
+    top: 11px;
+    right: 32px;
+    padding: 7px 22px;
+  }
+}

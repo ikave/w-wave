@@ -45,25 +45,7 @@
 
 /* 
 
-@media (max-width: 1200px) {
-  .header {
-    position: relative;
-    padding-top: 60px;
-  }
-  .header::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 60px;
-    width: 100%;
-    background-color: var(--color-gray-light);
-  }
-  .header__logo {
-    position: absolute;
-    top: 23px;
-  }
-}
+
 
 @media (max-width: 1023px) {
   .site-nav {

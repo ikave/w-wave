@@ -1,3 +1,9 @@
 .site-nav {
   flex-grow: 1;
 }
+
+@media (max-width: 1023px) {
+  .site-nav {
+    display: none;
+  }
+}

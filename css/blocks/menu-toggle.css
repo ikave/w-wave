@@ -1,7 +1,15 @@
 .menu-toggle {
   display: none;
+  width: 24px;
+  height: 24px;
   padding: 0;
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+@media (max-width: 1023px) {
+  .menu-toggle {
+    display: block;
+  }
 }
