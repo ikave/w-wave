@@ -1,6 +1,16 @@
 .additional-menu {
   display: flex;
-  column-gap: 52px;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  gap: 20px;
   font-size: 16px;
   line-height: 1;
+}
+
+@media (max-width: 767px) {
+  .additional-menu {
+    display: none;
+  }
 }

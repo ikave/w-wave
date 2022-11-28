@@ -28,6 +28,7 @@
   align-items: center;
   justify-content: space-between;
   min-height: 60px;
+  column-gap: 52px;
 }
 
 @media (max-width: 1200px) {
@@ -55,11 +56,24 @@
   .header__bottom-row {
     column-gap: 34px;
   }
+
+  .header__badge {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
   .header__logo {
     width: 87px;
     height: 10px;
+  }
+
+  .header__bottom {
+    border: none;
+  }
+
+  .header__bottom-row {
+    justify-content: center;
+    column-gap: 21px;
   }
 }

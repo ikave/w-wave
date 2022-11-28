@@ -1,14 +1,14 @@
-.streams-on-air {
-  display: flex;
-  column-gap: 15px;
-}
-
 .on-air {
   display: flex;
   align-items: center;
+  width: 175px;
   padding: 2px 10px;
   border-left: 1px solid var(--color-gray);
   column-gap: 8px;
+}
+
+.on-air:last-child {
+  border-right: 1px solid var(--color-gray);
 }
 
 .on-air__play {
@@ -30,4 +30,39 @@
   margin: 0;
   font-size: 16px;
   line-height: 1;
+}
+
+@media (max-width: 1200px) {
+  .on-air {
+    width: auto;
+    min-width: 108px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .on-air {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    border-left: none;
+    border-right: 1px solid var(--color-gray);
+  }
+
+  .on-air:last-child {
+    border-right: none;
+  }
+
+  .on-air__play {
+    margin-bottom: 5px;
+  }
+
+  .on-air__label {
+    margin-bottom: 4px;
+    font-size: 10px;
+  }
+
+  .on-air__title {
+    font-size: 14px;
+  }
 }

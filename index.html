@@ -10,7 +10,7 @@
     <link rel="manifest" href="site.webmanifest" />
     <title>Радио W-Wawe</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <script defer src="./js/index.js"></script>
+    <script type="module" src="./js/index.js"></script>
   </head>
   <body>
     <div style="display: none">
@@ -213,26 +213,32 @@
             </li>
           </ul>
           <div class="streams-on-air">
-            <article class="on-air">
-              <button class="on-air__play">
-                <img src="./img/play.svg" alt="" />
-              </button>
-              <div class="on-air__content">
-                <h3 class="on-air__label">Ранее в эфире</h3>
-                <p class="on-air__title">«Музыка»</p>
-              </div>
-            </article>
-            <article class="on-air">
-              <button class="on-air__play">
-                <img src="./img/play.svg" alt="" />
-              </button>
-              <div class="on-air__content">
-                <h3 class="on-air__label">Сейчас в эфире</h3>
-                <p class="on-air__title">«Как так?»</p>
-              </div>
-            </article>
+            <button class="streams-on-air__button">
+              <img class="streams-on-air__button-icon" src="./img/play.svg" alt="" />
+              <span class="streams-on-air__button-text">Что в эфире?</span>
+            </button>
+            <div class="streams-on-air__content">
+              <article class="on-air">
+                <button class="on-air__play">
+                  <img src="./img/play.svg" alt="" />
+                </button>
+                <div class="on-air__content">
+                  <h3 class="on-air__label">Ранее в эфире</h3>
+                  <p class="on-air__title">«Музыка»</p>
+                </div>
+              </article>
+              <article class="on-air">
+                <button class="on-air__play">
+                  <img src="./img/play.svg" alt="" />
+                </button>
+                <div class="on-air__content">
+                  <h3 class="on-air__label">Сейчас в эфире</h3>
+                  <p class="on-air__title">«Как так?»</p>
+                </div>
+              </article>
+            </div>
           </div>
-          <div class="badge"></div>
+          <div class="header__badge badge"></div>
         </div>
       </div>
     </header>
