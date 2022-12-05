@@ -9,7 +9,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="site.webmanifest" />
     <title>Радио W-Wawe</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"
+    ></script>
     <script type="module" src="./js/index.js"></script>
   </head>
   <body>
@@ -462,8 +470,11 @@
             <h2 class="section-title broadcasts__title">Передачи</h2>
             <div class="broadcasts__author">
               <span class="broadcasts__author-heading">Автор:</span>
-              <select name="" id="">
-                <option value="">Дмитрий Гутенберг</option>
+              <select class="select" name="author">
+                <option value="1">Дмитрий Гутенберг</option>
+                <option value="2">Татьяна Флеганова</option>
+                <option value="3">Анна Васильева</option>
+                <option value="4">Пётр Дмитриевский</option>
               </select>
             </div>
             <div class="broadcasts__archive-top">
