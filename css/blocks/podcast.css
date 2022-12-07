@@ -85,7 +85,8 @@
 }
 
 .podcast__play:active {
-  color: var(--color-primary-dark);
+  color: var(--color-white);
+  background-color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
 }
 
