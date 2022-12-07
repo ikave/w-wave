@@ -34,6 +34,13 @@
   margin-bottom: 227px;
 }
 
+.broadcasts__author-heading {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: var(--color-text-gray);
+}
+
 @media (max-width: 1200px) {
   .broadcasts__list {
     grid-template-columns: repeat(2, 1fr);
@@ -89,5 +96,10 @@
 
   .broadcasts__author {
     margin-bottom: 30px;
+  }
+
+  .broadcasts__author-heading {
+    margin-bottom: 6px;
+    font-size: 12px;
   }
 }
