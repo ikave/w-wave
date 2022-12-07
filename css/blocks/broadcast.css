@@ -1,11 +1,14 @@
 .broadcast {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   height: 100%;
 }
 
 .broadcast__poster {
   display: block;
+  max-width: 100%;
+  object-fit: cover;
   height: 148px;
 }
 

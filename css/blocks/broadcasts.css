@@ -73,7 +73,14 @@
   }
 
   .broadcasts__author {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
     margin-bottom: 47px;
+  }
+
+  .broadcasts__select {
+    grid-column: 1/2;
   }
 
   .broadcasts__archive {
@@ -95,6 +102,7 @@
   }
 
   .broadcasts__author {
+    grid-template-columns: 1fr;
     margin-bottom: 30px;
   }
 
