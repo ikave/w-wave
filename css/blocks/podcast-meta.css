@@ -8,32 +8,29 @@
   position: relative;
   display: flex;
   align-items: center;
+  padding: 2px;
   column-gap: 6px;
   font-size: 16px;
   line-height: 1;
+  text-decoration: none;
   color: var(--color-text-gray);
 }
 
-.podcast-meta__item::before {
-  content: '';
-  display: block;
-  background-repeat: no-repeat;
+/* .podcast-meta__item svg {
+  color: var(--color-text-gray);
+} */
+
+.podcast-meta__item:hover {
+  color: var(--color-primary);
 }
 
-.podcast-meta__item--played::before {
-  width: 10px;
-  height: 13px;
-  background-image: url('../../img/play-outline.svg');
+.podcast-meta__item:focus {
+  color: var(--color-white);
+  background-color: var(--color-primary-light);
+  outline: none;
 }
 
-.podcast-meta__item--liked::before {
-  width: 13px;
-  height: 12px;
-  background-image: url('../../img/heart.svg');
-}
-
-.podcast-meta__item--shared::before {
-  width: 12px;
-  height: 13px;
-  background-image: url('../../img/shared.svg');
+.podcast-meta__item:active {
+  color: var(--color-primary-dark);
+  background-color: transparent;
 }
